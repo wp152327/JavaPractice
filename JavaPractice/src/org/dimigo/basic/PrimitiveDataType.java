@@ -37,5 +37,4 @@ public class PrimitiveDataType {
 		System.out.printf("몸무게 : %.1f\n", weight);
 		System.out.printf("혈액형 : %c형\n", bloodType);
 	}
-
 }
