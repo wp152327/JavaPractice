@@ -53,5 +53,18 @@ public class Condition {
 		default:
 			System.out.println("넌 누구냐!!");
 		}
+		
+		String menu = "짬뽕";
+		
+		switch(menu) {
+		case "짜장면":
+			System.out.println("짜장면!");
+			break;
+		case "짬뽕":
+			System.out.println("짬뽕!");
+			break;
+		default:
+			System.out.println("다이어트 중");
+		}
 	}
 }
