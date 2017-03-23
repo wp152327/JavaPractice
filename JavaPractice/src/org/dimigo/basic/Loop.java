@@ -56,11 +56,15 @@ public class Loop {
 				job = work[rand()];
 				System.out.printf("%s(으)로 설정되었습니다.\n", job);
 				break;
-			default: 
-				System.out.println("없는 메뉴를 선택하셨습니다.");
+			case 9:
+				System.out.println("이제 공부하세요!");
 				break;
+			default: 
+				System.out.println("없는 메뉴입니다.");
+				
 			}
 		} while(choice != 9);
+		scanner.close();
 	}
 
 	static int rand() {
