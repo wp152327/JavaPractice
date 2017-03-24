@@ -15,7 +15,7 @@ package org.dimigo.oop;
  * @author : cordelia273
  * @version : 1.0
  */
-public class CarTest {
+public class CarTest2 {
 
 	/**
 	 * @param args
@@ -23,38 +23,20 @@ public class CarTest {
 	public static void main(String[] args) {
 		System.out.println("<< 자동차 목록 >>");
 		
-		Car car1 = new Car();
+		Car2 car1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
 
-		car1.setCompany("현대자동차");
-		car1.setModel("제네시스");
-		car1.setColor("검정색");
-		car1.setMaxSpeed(225);
-		car1.setPrice(50000000);
+		printCar2(car1);
 
-		printCar(car1);
+		Car2 car2 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
 
-		Car car2 = new Car();
+		printCar2(car2);
 
-		car2.setCompany("기아자동차");
-		car2.setModel("K7");
-		car2.setColor("흰색");
-		car2.setMaxSpeed(246);
-		car2.setPrice(40000000);
+		Car2 car3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 
-		printCar(car2);
-
-		Car car3 = new Car();
-
-		car3.setCompany("삼성자동차");
-		car3.setModel("SM7");
-		car3.setColor("회색");
-		car3.setMaxSpeed(200);
-		car3.setPrice(38000000);
-
-		printCar(car3);
+		printCar2(car3);
 	}
-
-	public static void printCar(Car car) {
+	
+	public static void printCar2(Car2 car) {
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
 		System.out.println("색상 : " + car.getColor());
@@ -62,4 +44,5 @@ public class CarTest {
 		System.out.printf("가격 : %,d원\n", car.getPrice());
 		System.out.println();
 	}
+
 }

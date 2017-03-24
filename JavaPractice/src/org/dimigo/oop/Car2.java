@@ -26,8 +26,9 @@ public class Car2 {
 		
 	}
 	
-	public Car2(String newCompany, String newColor, int newMaxSpeed, int newPrice) {
+	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice) {
 		company = newCompany;
+		model = newModel;
 		color = newColor;
 		maxSpeed = newMaxSpeed;
 		price = newPrice;
