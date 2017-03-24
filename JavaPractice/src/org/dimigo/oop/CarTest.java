@@ -52,9 +52,22 @@ public class CarTest {
 		car3.setPrice(38000000);
 
 		printCar(car3);
+		
+		Car2 car4 = new Car2();
+		
+		printCar2(car4);
 	}
 
 	public static void printCar(Car car) {
+		System.out.println("제조사명 : " + car.getCompany());
+		System.out.println("모델명 : " + car.getModel());
+		System.out.println("색상 : " + car.getColor());
+		System.out.println("최대속도 : " + car.getMaxSpeed() + "km");
+		System.out.printf("가격 : %,d원\n", car.getPrice());
+		System.out.println();
+	}
+	
+	public static void printCar2(Car2 car) {
 		System.out.println("제조사명 : " + car.getCompany());
 		System.out.println("모델명 : " + car.getModel());
 		System.out.println("색상 : " + car.getColor());
