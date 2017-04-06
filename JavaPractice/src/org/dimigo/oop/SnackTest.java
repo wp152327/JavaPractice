@@ -34,8 +34,8 @@ public class SnackTest {
 	public void printProduct(Snack snack) {
 		System.out.println("이름 : " + snack.getName());
 		System.out.println("제조사 : " + snack.getCompany());
-		System.out.println("가격 : " + snack.getPrice() + "개");
-		System.out.println("개수 : " + snack.getNumber() + "원");
+		System.out.printf("가격 : %,d원\n", snack.getPrice());
+		System.out.println("개수 : " + snack.getNumber() + "개");
 		System.out.println();
 	}
 
