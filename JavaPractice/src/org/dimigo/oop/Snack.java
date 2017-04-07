@@ -71,7 +71,7 @@ public class Snack {
 
 	@Override
 	public String toString() {
-		return "Snack [name=" + name + ", company=" + company + ", price=" + price + ", number=" + number + "]";
+		return "이름 : " + name + "\n제조사 : " + company + "\n가격 : " + price + "\n개수 : " + number + "\n";
 	}
 
 }
