@@ -15,6 +15,6 @@ public class Chinese extends Person {
   }
   
   public String toString() {
-    return "I'm Chinese " + name;
+    return "I'm Chinese " + super.getName();
   }
 }
