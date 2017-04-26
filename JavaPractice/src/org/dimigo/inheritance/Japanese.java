@@ -15,6 +15,6 @@ public class Japanese extends Person {
   }
   
   public String toString() {
-    return "I'm Japanese " + name;
+    return "I'm Japanese " + super.getName();
   }
 }
