@@ -14,6 +14,6 @@ public class Korean extends Person {
   }
   
   public String toString() {
-    return "I'm Korean " + name;
+    return "I'm Korean " + super.getName();
   }
 }
