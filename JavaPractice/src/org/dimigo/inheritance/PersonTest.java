@@ -7,3 +7,11 @@ public class PersonTest {
     
     Korean k = new Korean("JeonYunMin");
     System.out.println(k);
+    
+    Japanese j = new Japanese("HisyishiJo");
+    System.out.println(j);
+    
+    Chinese c = new Chinese("SijinPing");
+    System.out.println(c);
+  }
+}
