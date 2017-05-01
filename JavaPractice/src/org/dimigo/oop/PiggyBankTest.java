@@ -1,13 +1,13 @@
-package oop.dimigo.org
+package org.dimigo.oop;
 
-public class PigggyBankTest {
+public class PiggyBankTest {
   public static void main(String[] args) {
     FamilyMember fm1 = new FamilyMember("Dad");
     FamilyMember fm2 = new FamilyMember("Mom");
     FamilyMember fm3 = new FamilyMember("Me");
     FamilyMember fm4 = new FamilyMember("Brother");
     
-    FamilyMemmber.printMemberCnt();
+    FamilyMember.printMemberCnt();
     
     PiggyBank.putMoney(fm1, 10000);
     PiggyBank.putMoney(fm2, 5000);
@@ -16,4 +16,4 @@ public class PigggyBankTest {
     
     PiggyBank.printBalance();
   }
-]
+}

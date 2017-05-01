@@ -1,10 +1,10 @@
-package oop.dimigo.org
+package org.dimigo.oop;
 
 public class PiggyBank {
   private static int balance = 0;
   
   public static void putMoney(FamilyMember member, int amount) {
-    System.out.println(member.getMemberName + " : " + Integer.parseInt(amount) + "won input");
+    System.out.println(member.getMemberName() + " : " + amount + "won input");
     balance += amount;
   }
   

@@ -1,4 +1,4 @@
-package org.dimigo.inheritance
+package org.dimigo.inheritance;
 
 public class PersonTest {
   public static void main(String args[]) {

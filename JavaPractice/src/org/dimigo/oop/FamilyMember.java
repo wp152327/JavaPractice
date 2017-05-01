@@ -1,4 +1,4 @@
-package oop.dimigo.org
+package org.dimigo.oop;
 
 public class FamilyMember {
   private static int memberCnt = 0;
@@ -9,7 +9,7 @@ public class FamilyMember {
     memberCnt++;
   }
   
-  public void getMemberName(){
+  public String getMemberName(){
     return memberName;
   }
   
