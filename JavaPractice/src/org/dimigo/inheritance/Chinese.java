@@ -7,14 +7,14 @@ public class Chinese extends Person {
   }
   
   public void sayHello() {
-    System.out.println("Hello in Chinese!");
+    System.out.println("니하오");
   }
   
   public void sayBye() {
-    System.out.println("Bye in Chinese!");
+    System.out.println("짜이찌엔");
   }
   
   public String toString() {
-    return "I'm Chinese " + super.getName();
+    return "저는 중국사람 " + super.getName();
   }
 }

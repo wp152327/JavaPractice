@@ -6,14 +6,14 @@ public class Korean extends Person {
   }
   
   public void sayHello() {
-    System.out.println("Hello in Korean!");
+    System.out.println("안녕하세요!");
   }
   
   public void sayBye() {
-    System.out.println("Bye in Korean!");
+    System.out.println("안녕히 계세요!");
   }
   
   public String toString() {
-    return "I'm Korean " + super.getName();
+    return "저는 한국사람 " + super.getName();
   }
 }

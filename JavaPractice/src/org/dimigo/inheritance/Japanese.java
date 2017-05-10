@@ -7,14 +7,14 @@ public class Japanese extends Person {
   }
   
   public void sayHello() {
-    System.out.println("Hello in Japanese!");
+    System.out.println("오하이요");
   }
   
   public void sayBye() {
-    System.out.println("Bye in Japanese!");
+    System.out.println("사요나라");
   }
   
   public String toString() {
-    return "I'm Japanese " + super.getName();
+    return "저는 일본사람 " + super.getName();
   }
 }
