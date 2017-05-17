@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.inheritance;
+package org.dimigo.abstractclass;
 
 /**
  * <pre>
@@ -15,7 +15,7 @@ package org.dimigo.inheritance;
  * @author : cordelia273
  * @version : 1.0
  */
-public class SmartPhone {
+public abstract class SmartPhone {
 	private String model;
 	private String company;
 	private int price;
@@ -38,17 +38,15 @@ public class SmartPhone {
 		System.out.println(model + "의 전원을 끕니다.");
 	}
 
-	public void pay() {
-		System.out.println("결제를 진행합니다.");
-	}
+	public abstract void pay();
 
-	public void useSpecialFunction(SmartPhone phone) {
-		if(phone == null) return;
-		if(phone instanceof IPhone) {
-			((IPhone) phone).userAirDrop();
+	public void useSpecialFunction() {
+		if(this == null) return;
+		if(this instanceof IPhone) {
+			((IPhone) this).userAirDrop();
 		}
-		if(phone instanceof Galaxy) {
-			((Galaxy) phone).userWirelessCharging();
+		if(this instanceof Galaxy) {
+			((Galaxy) this).userWirelessCharging();
 		}
 	}
 
