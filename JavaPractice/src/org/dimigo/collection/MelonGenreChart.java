@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.jeonyunminhandsome;
+package org.dimigo.collection;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,7 +20,7 @@ import java.util.Map;
  * @version : 1.0
  * 
  */
-public class MelonGnreChart {
+public class MelonGenreChart {
 
 	/**
 	 * @param args
